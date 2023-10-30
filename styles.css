@@ -7,6 +7,7 @@ body {
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     gap: 16px;
     margin: 16px;
@@ -26,30 +27,39 @@ button {
     padding: 8px;
     font-weight: bold;
     border-radius: 8px;
+    width: 100px;
+    flex: 0 1 auto;
 }
 
 .header {
-    flex: 1, 1, auto;
     display: flex;
     flex-flow: column;
     background-color: #1f2937;
     color: #f9faf8;
     padding: 16px;
+    justify-content: space-between;
 }
 
 .header-ribbon {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-ribbon p {
-    margin: 16px;
+    margin: 8px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .header-container {
     display: flex;
-    width: 600px;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
 }
 
 .header-container p {
@@ -58,6 +68,17 @@ button {
     /* color: red; */
 }
 
+.hook {
+    display: flex;
+    width: 300px;
+    flex-flow: column wrap;
+    margin: 8px;
+}
+
+.title-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
 
 .footer {
     background-color: #1f2937;
