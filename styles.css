@@ -160,9 +160,41 @@ button {
     font-weight: bold;
 }
 
-.bumper-sticker {
+.bumper {
     display: flex;
     justify-content: center;
+}
+
+.bumper-sticker {
+    flex: 1 1 auto;
+    margin: 48px;
+    padding: 24px;
+    max-width: 50vw;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 12px;
+}
+
+.bumper-sticker button {
+    border-width: 2px;
+    border-color: #e5e7eb;
+    border-style: solid;
+}
+
+.context {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.knitting-call {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .footer {
