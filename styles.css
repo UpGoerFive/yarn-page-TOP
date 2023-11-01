@@ -83,6 +83,8 @@ button {
 
 .contents {
     flex:1 1 0;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .gallery {
@@ -130,6 +132,37 @@ button {
 
 .yarn-two {
     object-position: 50% 100%;
+}
+
+.text-ribbon {
+    padding: 24px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.testimonial, .author{
+    max-width: 50vw;
+}
+
+.testimonial {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.author {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bumper-sticker {
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
